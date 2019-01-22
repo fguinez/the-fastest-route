@@ -37,8 +37,8 @@ def get_distances(data):
 
 if __name__ == "__main__":
 
-    origin = "Jose+Miguel+Balmaceda+899%2C+Buin"
-    destination = "Manuel+Rodriguez+270%2C+Buin"
+    origins = "Jose+Miguel+Balmaceda+899%2C+Buin"
+    destinations = "Manuel+Rodriguez+270%2C+Buin"
 
-    data = get_data(origin, destination)
+    data = get_data(origins, destinations)
     print(data['status'])
